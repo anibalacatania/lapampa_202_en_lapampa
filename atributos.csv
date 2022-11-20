@@ -1,0 +1,34 @@
+Nombre,Valores
+Intensidad de color,Numeric
+Matiz violeta,Numeric
+Matiz rojo,Numeric
+Intensidad aromatica,Numeric
+Mermelada,Numeric
+Vainilla,Numeric
+Pimienta,Numeric
+Floral,Numeric
+Frutos secos,Numeric
+Frtuos tropicales,Numeric
+Manteca,Numeric
+Madera,Numeric
+Chocolate,Numeric
+Tabaco,Numeric
+Cuero ,Numeric
+Pasas,Numeric
+Frutos rojos,Numeric
+Roble,Numeric
+Te,Numeric
+Pimiento verde,Numeric
+Blasamico,Numeric
+Tierra,Numeric
+Pasto,Numeric
+Humo,Numeric
+Fruta Cocida,Numeric
+Volumen en boca,Numeric
+Acidez,Numeric
+Amargo,Numeric
+Picante,Numeric
+Astringencia,Numeric
+Dulce,Numeric
+otro,Text
+otro2,Text
