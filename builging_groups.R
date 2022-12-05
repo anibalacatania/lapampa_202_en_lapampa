@@ -26,7 +26,7 @@ vinos<-c("LP1",
 length(vinos)
        
 
-set.seed(43567345)
+set.seed(647)
 chunk <- function(x,n) split(x, factor(sample(rank(x)%%n)))
 chunk1<-chunk(vinos,3)
 
@@ -43,4 +43,4 @@ c3
   grupos<-cbind(c1,c2,c3)
 grupos
 
-write.csv(grupos,"bloque1.csv")
+write.csv(grupos,"bloque3.csv")
