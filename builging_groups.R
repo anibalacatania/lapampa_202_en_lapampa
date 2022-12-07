@@ -26,7 +26,7 @@ vinos<-c("LP1",
 length(vinos)
        
 
-set.seed(647)
+set.seed(999)
 chunk <- function(x,n) split(x, factor(sample(rank(x)%%n)))
 chunk1<-chunk(vinos,3)
 
