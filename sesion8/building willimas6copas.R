@@ -10,7 +10,7 @@ vinos<- read_csv("bloque3.csv")
 
 
 
-g2<-as.vector(vinos$sesion7)
+g2<-as.vector(vinos$sesion8)
 g2
 
 
@@ -54,24 +54,24 @@ rep1<-gather(rep1, panelista, copas)
 rep2<-rep1 %>%
   group_by(copas)%>%
   mutate(ID =
-           case_when(copas == "LP1" ~ "440", 
-                     copas == "LP3" ~ "315",
-                     copas == "LP13" ~ "293",
-                     copas == "LP14" ~ "787", 
-                     copas == "LP21" ~ "517",
-                     copas == "LP20" ~ "175"
+           case_when(copas == "LP5" ~ "590", 
+                     copas == "LP6" ~ "415",
+                     copas == "LP15" ~ "373",
+                     copas == "LP10" ~ "885", 
+                     copas == "LP23" ~ "612",
+                     copas == "LP24" ~ "270"
             ))%>%
          mutate(Muestra =
-           case_when(copas == "LP1" ~ "1", 
-                     copas == "LP3" ~ "2",
-                     copas == "LP13" ~ "3",
-                     copas == "LP14" ~ "4", 
-                     copas == "LP21" ~ "5",
-                     copas == "LP20" ~ "6"
+           case_when(copas == "LP5" ~ "1", 
+                     copas == "LP6" ~ "2",
+                     copas == "LP15" ~ "3",
+                     copas == "LP10" ~ "4", 
+                     copas == "LP23" ~ "5",
+                     copas == "LP24" ~ "6"
 
         ))
 
 
 
-write.table(rep2,"sesion7/sesion7.csv",row.names = FALSE)
+write.table(rep2,"sesion8/sesion8.csv",row.names = FALSE)
 
